@@ -1,0 +1,8 @@
+buildVariable: false
+familyName: Noto Sans Limbu
+googleFonts: true
+includeSubsets:
+- from: Noto Sans
+  name: GF_Latin_Core
+sources:
+- NotoSansLimbu.glyphs
