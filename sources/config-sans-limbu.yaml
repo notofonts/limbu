@@ -4,5 +4,9 @@ googleFonts: true
 includeSubsets:
 - from: Noto Sans
   name: GF_Latin_Core
+- from: Noto Sans Devanagari
+  ranges:
+    - start: 0x0964
+      end: 0x0965
 sources:
 - NotoSansLimbu.glyphs
