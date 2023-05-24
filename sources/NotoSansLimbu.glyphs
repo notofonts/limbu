@@ -1,7 +1,7 @@
 {
 .appVersion = "3180";
 DisplayStrings = (
-"/uni1921"
+"/uni192B"
 );
 copyright = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/limbu)";
 customParameters = (
@@ -174,7 +174,7 @@ code = "# Automatic Code Start\012";
 name = mkmk;
 },
 {
-code = "# Automatic CodeStart\012pos uni1921' 200;\012pos uni1921 uni193A' 150;\012";
+code = "# Automatic Code Start\012# Although these are supposed to be spacing combining marks, Harfbuzz is\012# zeroing their width, so I'm putting it back here. See issues #1 and #2\012pos uni1921' 200;\012pos uni1921 uni193A' 150;\012pos uni1929' 358;\012pos uni192B' 410;";
 name = kern;
 }
 );
@@ -3145,7 +3145,7 @@ subCategory = Nonspacing;
 },
 {
 glyphname = uni1929;
-lastChange = "2021-12-16 21:24:15 +0000";
+lastChange = "2023-05-24 20:03:19 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -3181,7 +3181,7 @@ width = 358;
 );
 unicode = 1929;
 category = Mark;
-subCategory = Spacing;
+subCategory = "Spacing Combining";
 },
 {
 glyphname = uni192A;
@@ -3226,7 +3226,7 @@ subCategory = Nonspacing;
 },
 {
 glyphname = uni192B;
-lastChange = "2021-12-16 21:24:46 +0000";
+lastChange = "2023-05-24 20:05:16 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -3284,7 +3284,7 @@ width = 410;
 );
 unicode = 192B;
 category = Mark;
-subCategory = Spacing;
+subCategory = "Spacing Combining";
 },
 {
 glyphname = uni1930;
