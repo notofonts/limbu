@@ -1,5 +1,8 @@
 {
-.appVersion = "3106";
+.appVersion = "3180";
+DisplayStrings = (
+"/uni1921"
+);
 copyright = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/limbu)";
 customParameters = (
 {
@@ -117,6 +120,10 @@ name = "Don't use Production Names";
 value = 1;
 },
 {
+name = "Use Typo Metrics";
+value = 1;
+},
+{
 name = description;
 value = "Designed by Monotype design team.";
 },
@@ -139,10 +146,6 @@ value = "Noto is a trademark of Google Inc.";
 {
 name = versionString;
 value = "Version 2.004";
-},
-{
-name = "Use Typo Metrics";
-value = 1;
 }
 );
 date = "2021-12-16 18:45:09 +0000";
@@ -169,6 +172,10 @@ name = mark;
 {
 code = "# Automatic Code Start\012";
 name = mkmk;
+},
+{
+code = "# Automatic CodeStart\012pos uni1921' 200;\012pos uni1921 uni193A' 150;\012";
+name = kern;
 }
 );
 fontMaster = (
@@ -2553,7 +2560,7 @@ subCategory = Nonspacing;
 },
 {
 glyphname = uni1921;
-lastChange = "2021-02-27 04:55:41 +0000";
+lastChange = "2023-05-24 20:02:00 +0000";
 layers = (
 {
 anchors = (
@@ -2602,12 +2609,12 @@ nodes = (
 );
 }
 );
-width = 0;
+width = 200;
 }
 );
 unicode = 1921;
 category = Mark;
-subCategory = Nonspacing;
+subCategory = "Spacing Combining";
 },
 {
 glyphname = uni1922;
