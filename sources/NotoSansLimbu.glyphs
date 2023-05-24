@@ -156,7 +156,7 @@ disablesNiceNames = 1;
 familyName = "Noto Sans Limbu";
 featurePrefixes = (
 {
-code = "languagesystem limb dflt;\012";
+code = "languagesystem DFLT dflt;\012languagesystem limb dflt;\012";
 name = Languagesystems;
 }
 );
