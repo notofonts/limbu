@@ -4923,6 +4923,14 @@ position = "{360, 732}";
 {
 name = Anchor6;
 position = "{360, 0}";
+},
+{
+name = bottom;
+position = "{360, -38}";
+},
+{
+name = top;
+position = "{366, 645}";
 }
 );
 layerId = UUID0;
