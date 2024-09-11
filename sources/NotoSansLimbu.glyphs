@@ -2,7 +2,8 @@
 .appVersion = "3310";
 DisplayStrings = (
 "/uni192B",
-"/uni1926"
+"/uni1926",
+"/uni192A1922"
 );
 copyright = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/limbu)";
 customParameters = (
@@ -137,12 +138,12 @@ name = licenseURL;
 value = "https://openfontlicense.org";
 },
 {
-name = vendorID;
-value = GOOG;
-},
-{
 name = trademark;
 value = "Noto is a trademark of Google Inc.";
+},
+{
+name = vendorID;
+value = GOOG;
 }
 );
 date = "2021-12-16 18:45:09 +0000";
@@ -2615,10 +2616,14 @@ subCategory = "Spacing Combining";
 },
 {
 glyphname = uni1922;
-lastChange = "2021-02-27 04:55:41 +0000";
+lastChange = "2024-09-11 15:02:02 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor6;
+position = "{-448, -266}";
+},
 {
 name = _Anchor6;
 position = "{-323, -15}";
@@ -3142,7 +3147,7 @@ subCategory = Nonspacing;
 },
 {
 glyphname = uni1929;
-lastChange = "2023-05-24 20:03:19 +0000";
+lastChange = "2024-09-11 14:59:08 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -3182,10 +3187,14 @@ subCategory = "Spacing Combining";
 },
 {
 glyphname = uni192A;
-lastChange = "2021-02-27 04:55:41 +0000";
+lastChange = "2024-09-11 15:01:55 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor6;
+position = "{-4, -250}";
+},
 {
 name = _Anchor6;
 position = "{24, 0}";
@@ -3781,10 +3790,14 @@ subCategory = Nonspacing;
 },
 {
 glyphname = uni193B;
-lastChange = "2021-02-27 04:55:41 +0000";
+lastChange = "2024-09-11 14:59:54 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor6;
+position = "{-299, -186}";
+},
 {
 name = _Anchor6;
 position = "{-298, 0}";
@@ -4771,10 +4784,14 @@ unicode = 1901;
 },
 {
 glyphname = uni192A1922;
-lastChange = "2021-02-27 04:55:41 +0000";
+lastChange = "2024-09-11 15:02:19 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor6;
+position = "{-112, -280}";
+},
 {
 name = _Anchor6;
 position = "{-69, 0}";
