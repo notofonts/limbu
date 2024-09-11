@@ -1,7 +1,8 @@
 {
-.appVersion = "3180";
+.appVersion = "3310";
 DisplayStrings = (
-"/uni192B"
+"/uni192B",
+"/uni1926"
 );
 copyright = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/limbu)";
 customParameters = (
@@ -158,7 +159,7 @@ name = Languagesystems;
 );
 features = (
 {
-code = "sub uni192A uni1922 by uni192A1922;";
+code = "sub uni192A uni1922 by uni192A1922;\012sub uni1925 by uni1920 uni1923;\012sub uni1926 by uni1920 uni1924;";
 name = ccmp;
 },
 {
@@ -166,11 +167,11 @@ code = "# Automatic Code Start\012";
 name = mark;
 },
 {
-code = "# Automatic Code Start\012";
+code = "# Automatic Code Start\012\012# Khampreng should sit on top of spacing marks\012";
 name = mkmk;
 },
 {
-code = "# Automatic Code Start\012# Although these are supposed to be spacing combining marks, Harfbuzz is\012# zeroing their width, so I'm putting it back here. See issues #1 and #2\012pos uni1921' 200;\012pos uni1921 uni193A' 150;\012pos uni1929' 358;\012pos uni192B' 410;";
+code = "# Automatic Code Start\012# Although these are supposed to be spacing combining marks, Harfbuzz is\012# zeroing their width, so I'm putting it back here. See issues #1 and #2\012pos uni1921' 200;\012pos uni1921 uni193A' 150;\012pos uni1929' 358;\012pos uni192B' 410;\012pos [uni1923 uni1925]' 286;\012pos [uni1924 uni1926]' 561;";
 name = kern;
 }
 );
@@ -2676,7 +2677,7 @@ subCategory = Nonspacing;
 },
 {
 glyphname = uni1923;
-lastChange = "2021-12-16 21:20:46 +0000";
+lastChange = "2024-09-11 14:50:25 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -2728,11 +2729,11 @@ width = 286;
 );
 unicode = 1923;
 category = Mark;
-subCategory = Spacing;
+subCategory = "Spacing Combining";
 },
 {
 glyphname = uni1924;
-lastChange = "2021-12-16 21:21:08 +0000";
+lastChange = "2024-09-11 14:50:25 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -2825,11 +2826,11 @@ width = 561;
 );
 unicode = 1924;
 category = Mark;
-subCategory = Spacing;
+subCategory = "Spacing Combining";
 },
 {
 glyphname = uni1925;
-lastChange = "2021-12-16 21:21:38 +0000";
+lastChange = "2024-09-11 14:50:25 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -2918,11 +2919,11 @@ width = 286;
 );
 unicode = 1925;
 category = Mark;
-subCategory = Spacing;
+subCategory = "Spacing Combining";
 },
 {
 glyphname = uni1926;
-lastChange = "2021-12-16 21:22:01 +0000";
+lastChange = "2024-09-11 14:50:25 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -3052,7 +3053,7 @@ width = 561;
 );
 unicode = 1926;
 category = Mark;
-subCategory = Spacing;
+subCategory = "Spacing Combining";
 },
 {
 glyphname = uni1927;
