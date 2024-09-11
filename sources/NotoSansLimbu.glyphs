@@ -5,6 +5,12 @@ DisplayStrings = (
 "/uni1926",
 "/uni192A1922"
 );
+classes = (
+{
+code = "uni1921\012uni1923\012uni1924\012uni1925\012uni1926\012uni1929\012uni192B\012";
+name = SpacingMarks;
+}
+);
 copyright = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/limbu)";
 customParameters = (
 {
@@ -172,7 +178,7 @@ code = "# Automatic Code Start\012\012# Khampreng should sit on top of spacing m
 name = mkmk;
 },
 {
-code = "# Automatic Code Start\012# Although these are supposed to be spacing combining marks, Harfbuzz is\012# zeroing their width, so I'm putting it back here. See issues #1 and #2\012pos uni1921' 200;\012pos uni1921 uni193A' 150;\012pos uni1929' 358;\012pos uni192B' 410;\012pos [uni1923 uni1925]' 286;\012pos [uni1924 uni1926]' 561;";
+code = "# Automatic Code Start\012# Although these are supposed to be spacing combining marks, Harfbuzz is\012# zeroing their width, so I'm putting it back here. See issues #1 and #2\012\012# Mild hack\012ignore pos @SpacingMarks @SpacingMarks';\012\012pos uni1921' 200;\012pos uni1921 uni193A' 150;\012pos uni1929' 358;\012pos uni192B' 410;\012pos [uni1923 uni1925]' 286;\012pos [uni1924 uni1926]' 561;\012";
 name = kern;
 }
 );
