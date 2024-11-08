@@ -6,7 +6,8 @@ includeSubsets:
   name: GF_Latin_Core
 - from: Noto Sans Devanagari
   ranges:
-    - start: 0x0964
-      end: 0x0965
+  - end: 2405
+    start: 2404
+recipeProvider: noto
 sources:
 - NotoSansLimbu.glyphs
